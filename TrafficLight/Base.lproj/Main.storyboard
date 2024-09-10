@@ -53,6 +53,9 @@
                                         <state key="normal" title="START">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="startButtonDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OLZ-K5-a4J"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -65,10 +68,16 @@
                             <constraint firstItem="w8O-N0-wG1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ZFf-1G-QkI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLightView" destination="17V-yA-e7u" id="ZPm-Nv-wlV"/>
+                        <outlet property="redLightView" destination="d8L-h5-7EX" id="zc5-FF-C3a"/>
+                        <outlet property="startButton" destination="bom-qE-YHl" id="CFD-Mp-Hp6"/>
+                        <outlet property="yellowLightView" destination="mPx-A3-9hx" id="d21-Om-w1o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="46.376811594202906" y="-2.6785714285714284"/>
         </scene>
     </scenes>
     <resources>
